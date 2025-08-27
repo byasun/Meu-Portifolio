@@ -1,0 +1,34 @@
+.project-categories {
+    display: flex;
+    justify-content: center;
+    margin-bottom: var(--spacing-quad);
+    flex-wrap: wrap;
+    gap: var(--spacing);
+}
+
+.category-btn {
+    padding: var(--spacing) var(--spacing-double);
+    background: transparent;
+    border: 2px solid var(--secondary-color);
+    border-radius: 30px;
+    cursor: pointer;
+    transition: var(--transition);
+    font-weight: 500;
+}
+
+.category-btn.active, .category-btn:hover {
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--spacing-double);
+}
+
+@media (max-width: 768px) {
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+}
