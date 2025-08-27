@@ -4,14 +4,14 @@ import './Skills.css';
 
 const Skills = () => {
   const skills = [
-    { name: 'Python', level: 90 },
-    { name: 'Java', level: 85 },
-    { name: 'C#', level: 80 },
-    { name: 'SQL', level: 85 },
-    { name: 'TensorFlow', level: 75 },
-    { name: 'Unity', level: 80 },
-    { name: 'Docker', level: 70 },
-    { name: 'AWS', level: 65 }
+    { name: 'Azure', level: 80 },
+    { name: 'MongoDB', level: 80 },
+    { name: 'Python', level: 75 },
+    { name: 'Unity', level: 75 },
+    { name: 'C#', level: 75 },
+    { name: 'Java', level: 70 },
+    { name: 'Node.js', level: 70 },
+    { name: 'PI AF', level: 50 }
   ];
   
   return (

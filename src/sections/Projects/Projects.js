@@ -16,7 +16,7 @@ const Projects = () => {
     { 
       id: 1, 
       title: 'Sistema de API REST', 
-      description: 'Desenvolvimento de uma API robusta para gerenciamento de dados com autenticação JWT e documentação Swagger.', 
+      description: 'Desenvolvimento de uma API robusta para gerenciamento de dados.', 
       image: '/images/projeto1.jpg', 
       categories: ['backend'],
       technologies: ['Python', 'Flask', 'MongoDB'],
@@ -26,7 +26,7 @@ const Projects = () => {
     { 
       id: 2, 
       title: 'Modelo de Previsão de Demanda', 
-      description: 'Modelo de machine learning para prever demandas de produtos usando séries temporais e Random Forest.', 
+      description: 'Modelo de machine learning para prever quais pontos tem que ser ajustados para enquadramento do valor de cloreto em petróleo.', 
       image: '/images/projeto2.jpg', 
       categories: ['ml'],
       technologies: ['Python', 'TensorFlow', 'Scikit-learn'],
