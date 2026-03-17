@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
 import './ScrollToTop.css';
 
 const ScrollToTop = () => {
@@ -29,7 +31,7 @@ const ScrollToTop = () => {
     <>
       {isVisible && (
         <button onClick={scrollToTop} className="scroll-to-top">
-          <i className="fas fa-arrow-up"></i>
+          <FontAwesomeIcon icon={faArrowUp} />
         </button>
       )}
     </>

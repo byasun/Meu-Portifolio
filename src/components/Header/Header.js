@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 import './Header.css';
 
 const Header = () => {
@@ -18,7 +20,7 @@ const Header = () => {
         <nav>
           <a href="#" className="logo">MeuPortfólio</a>
           <div className={`menu-toggle ${menuOpen ? 'active' : ''}`} onClick={toggleMenu}>
-            <i className="fas fa-bars"></i>
+            <FontAwesomeIcon icon={faBars} />
           </div>
           <ul className={`nav-links ${menuOpen ? 'active' : ''}`}>
             <li><a href="#home" onClick={closeMenu}>Início</a></li>

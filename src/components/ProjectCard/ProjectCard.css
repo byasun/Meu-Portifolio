@@ -74,11 +74,16 @@
   color: var(--primary-color);
 }
 
+.project-info p {
+  text-align: justify;
+}
+
 .project-technologies {
   margin-top: var(--spacing);
   display: flex;
   flex-wrap: wrap;
   gap: var(--spacing);
+  justify-content: center;
 }
 
 .tech-tag {

@@ -1,31 +1,28 @@
 import React from 'react';
 import SkillBar from '../../components/SkillBar/SkillBar';
+import { skillsData } from '../../data';
 import './Skills.css';
 
 const Skills = () => {
-  const skills = [
-    { name: 'Azure', level: 80 },
-    { name: 'MongoDB', level: 80 },
-    { name: 'Python', level: 75 },
-    { name: 'Unity', level: 75 },
-    { name: 'C#', level: 75 },
-    { name: 'Java', level: 70 },
-    { name: 'Node.js', level: 70 },
-    { name: 'PI AF', level: 50 }
-  ];
-  
   return (
     <section id="skills" className="skills-section">
       <div className="container">
         <h2 className="section-title">Minhas Habilidades</h2>
-        <div className="skills-container">
-          {skills.map((skill, index) => (
-            <SkillBar 
-              key={index} 
-              name={skill.name} 
-              level={skill.level} 
-              delay={index * 100}
-            />
+        <div className="skills-grid">
+          {skillsData.map((skillCategory, categoryIndex) => (
+            <div key={categoryIndex} className="skill-category fade-in">
+              <h3 className="category-title">{skillCategory.category}</h3>
+              <div className="skills-container">
+                {skillCategory.skills.map((skill, skillIndex) => (
+                  <SkillBar 
+                    key={skillIndex} 
+                    name={skill.name} 
+                    level={skill.level} 
+                    delay={(categoryIndex * 100) + (skillIndex * 50)}
+                  />
+                ))}
+              </div>
+            </div>
           ))}
         </div>
       </div>
