@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300" role="img" aria-labelledby="title desc">
+  <title id="title">ML Model Placeholder</title>
+  <desc id="desc">Placeholder image for machine learning project card.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e74c3c" />
+      <stop offset="100%" stop-color="#c0392b" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bg)" rx="16" />
+  <g fill="#ffffff" font-family="Verdana, Geneva, Tahoma, sans-serif" text-anchor="middle">
+    <text x="200" y="130" font-size="24" font-weight="700">ML MODEL</text>
+    <text x="200" y="165" font-size="16">Project Preview</text>
+  </g>
+</svg>

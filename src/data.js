@@ -5,7 +5,7 @@ export const projectsData = [
     id: 1,  
     title: 'Modelo de Previsão de Qualidade em Petróleo', 
     description: 'Modelo de machine learning com TensorFlow treinado para prever ajustes necessários no teor de cloreto em petróleos. Utiliza dados históricos para otimizar a qualidade do produto com precisão de 92%.', 
-    image: 'https://placeholder.co/400x300/e74c3c/ffffff?text=ML+Model', 
+    image: '/images/placeholder-ml-model.svg', 
     categories: ['ml'],
     technologies: ['Python', 'TensorFlow', 'Scikit-learn', 'Pandas'],
     link: null,
@@ -35,7 +35,7 @@ export const projectsData = [
     id: 4,
     title: 'Gestão PDA - REGAP',
     description: 'Sistema de gestão de PDAs implementado para a refinaria REGAP. Backend robusto com integração de processos corporativos, relatórios automatizados e controle de versões.',
-    image: 'https://placeholder.co/400x300/16a085/ffffff?text=Gestao+PDA',
+    image: '/images/placeholder-gestao-pda.svg',
     categories: ['backend'],
     technologies: ['Python', 'FastAPI', 'PowerBI', 'Azure'],
     link: null,
@@ -100,7 +100,7 @@ export const aboutData = {
   ],
   hobbies: ['Leitura', 'Jogos', 'Séries', 'Tecnologia'],
   cvLink: '/cv.pdf',
-  avatar: 'https://via.placeholder.com/300x300/3498db/ffffff?text=Anna+Clara'
+  avatar: '/images/avatar-anna-clara.svg'
 };
 
 export const contactData = {

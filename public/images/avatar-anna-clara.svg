@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300" role="img" aria-labelledby="title desc">
+  <title id="title">Avatar Anna Clara</title>
+  <desc id="desc">Avatar placeholder for Anna Clara profile section.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3498db" />
+      <stop offset="100%" stop-color="#2b7cb2" />
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" fill="url(#bg)" />
+  <circle cx="150" cy="120" r="52" fill="#ffffff" opacity="0.92" />
+  <path d="M65 252c14-44 49-68 85-68s71 24 85 68" fill="#ffffff" opacity="0.92" />
+  <text x="150" y="286" fill="#ffffff" font-family="Verdana, Geneva, Tahoma, sans-serif" font-size="16" text-anchor="middle">Anna Clara</text>
+</svg>
